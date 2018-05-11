@@ -1,5 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
-    background-color: red;
+    background-color: #fff;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -11,7 +15,7 @@ header {
 }
 
 .navbar ul li {
-    font-family: 'Roboto', sans-serif;
+
     font-size: 13px;
     color: #7d7d7d;
     display: inline;
@@ -36,7 +40,7 @@ main {
     padding-top: 78px;
     padding-left: 90px;
     padding-right: 90px;
-    background-color: blue;
+    background-color: #272121;
 }
 
 .frame {
@@ -50,9 +54,35 @@ main {
     position: absolute;
     left: 0; top: 0;
     width: 100%; height: 100%;
-
+    border-width: 0px;
 }
 
+.underFrame {
+    display: flex;
+    justify-content: space-between;
+}
+
+.underFrameImages {
+    padding-top: 23px;
+    padding-bottom: 27px;
+}
+
+.underFrame > div > h6 {
+    color: #fff;
+    font-size: 14px ;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 2px;
+}
+
+.underFrame > div > h3 {
+    color: #d57232;
+    font-size: 10px;
+    margin: 0;
+}
+
+
+/*//////////////////////////////////////////*/
 footer {
     background-color: green;
     height: 200px;
