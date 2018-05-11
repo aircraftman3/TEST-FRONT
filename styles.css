@@ -62,12 +62,13 @@ main {
     justify-content: space-between;
 }
 
-.underFrameImages {
+.underFrameImages img {
     padding-top: 23px;
     padding-bottom: 27px;
+    padding-left: 26px;
 }
 
-.underFrame > div > h6 {
+.underFrame > div > h3 {
     color: #fff;
     font-size: 14px ;
     margin: 0;
@@ -75,7 +76,7 @@ main {
     padding-bottom: 2px;
 }
 
-.underFrame > div > h3 {
+.underFrame > div > h6 {
     color: #d57232;
     font-size: 10px;
     margin: 0;
@@ -84,6 +85,6 @@ main {
 
 /*//////////////////////////////////////////*/
 footer {
-    background-color: green;
+    background-color: #ebebeb;
     height: 200px;
 }
