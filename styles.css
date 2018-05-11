@@ -14,7 +14,7 @@ header {
     text-transform: uppercase;
 }
 
-.navbar ul li {
+.navbar > ul > li {
 
     font-size: 13px;
     color: #7d7d7d;
@@ -62,7 +62,7 @@ main {
     justify-content: space-between;
 }
 
-.underFrameImages img {
+.underFrameImages > img {
     padding-top: 23px;
     padding-bottom: 27px;
     padding-left: 26px;
@@ -86,5 +86,19 @@ main {
 /*//////////////////////////////////////////*/
 footer {
     background-color: #ebebeb;
-    height: 200px;
+
+}
+
+article > p {
+    margin-top: 0;
+    color: #7d7d7d;
+    font-size: 10px;
+    text-align: justify;
+
+}
+
+.footerArticle {
+    padding-top: 49px;
+    padding-left: 96px;
+    padding-right: 91px;
 }
