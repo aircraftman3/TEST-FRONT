@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    max-width: 1680px;
 }
 
 header {
@@ -10,11 +11,12 @@ header {
 }
 .navbar > ul {
     margin:0;
-
+padding-left: 0px;
 }
 
 .navbar {
     padding-top: 30px;
+    padding-right: 33px;
     text-transform: uppercase;
 }
 
@@ -59,10 +61,13 @@ header {
 /*///////////////////////////////////////////*/
 main {
 
-    width: 100%;
+
+
 }
 
 .main {
+
+    border-top: solid 2px #ebebeb;
     padding-top: 78px;
     padding-left: 90px;
     padding-right: 90px;
