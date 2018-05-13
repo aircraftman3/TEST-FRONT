@@ -8,9 +8,10 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 .navbar > ul {
-    margin:0;
-padding-left: 0px;
+    margin: 0;
+    padding-left: 0px;
 }
 
 .navbar {
@@ -25,12 +26,10 @@ padding-left: 0px;
     display: inline;
     list-style-type: none;
     padding-right: 37px;
-
 }
 
 .navbar > ul > li:nth-last-child(3) {
     padding-right: 28px;
-
 }
 
 .navbar > ul > li:last-child {
@@ -49,21 +48,24 @@ padding-left: 0px;
 .navbar > ul > li:nth-last-child(2) {
     color: #0072bc;
     padding-right: 20px;
-
 }
 
 .navbar ul li img {
     padding-right: 15px;
-
 }
 
 #logo {
     padding-left: 35px;
     padding-top: 20px;
     padding-bottom: 19px;
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
+
+    max-width: 180px;
+    max-height: 61px;
+
 }
+
 /*///////////////////////////////////////////*/
 
 .main {
@@ -82,7 +84,8 @@ padding-left: 0px;
 
 .frame > iframe {
     position: absolute;
-    left: 0; top: 0;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
     border-width: 0px;
@@ -101,7 +104,7 @@ padding-left: 0px;
 
 .underFrame > div > h3 {
     color: #fff;
-    font-size: 26.1px ;
+    font-size: 26.1px;
     margin: 0;
     padding-top: 25px;
     padding-bottom: 2px;
@@ -123,9 +126,6 @@ padding-left: 0px;
     background-color: #111;
     overflow-x: hidden;
     transition: 1s;
-    /*padding-top: 60px;*/
-    /*border: 1px solid;*/
-    /*padding: 10px;*/
     box-shadow: 3px 8px #211c1c;
 }
 
@@ -177,7 +177,6 @@ padding-left: 0px;
     text-align: justify;
     padding-top: 17px;
     padding-right: 34px;
-
     line-height: 24px;
 }
 
@@ -232,7 +231,6 @@ footer {
     padding-top: 48px;
     padding-left: 96px;
     padding-right: 91px;
-
 }
 
 .footerBottom {
@@ -259,3 +257,256 @@ footer {
     color: #d57232;
     font-size: 15.1px;
 }
+/*/////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 325px) {
+    .navbar > ul {
+        margin: 0;
+        padding-left: 0px;
+    }
+
+    .navbar {
+        padding-top: 10px;
+        padding-right: 0px;
+
+    }
+
+    .navbar > ul > li {
+        font-size: 8px;
+
+
+
+        padding-right: 2px;
+    }
+
+    .navbar > ul > li:nth-last-child(3) {
+        padding-right: 0px;
+    }
+
+    .navbar > ul > li:last-child {
+
+        font-size: 9px;
+
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .navbar > ul > li:nth-last-child(2) {
+
+        padding-right: 0px;
+    }
+
+    .navbar ul li img {
+        padding-right: 2px;
+    }
+
+    #logo {
+        padding-left: 15px;
+        padding-top: 15px;
+        padding-bottom: 9px;
+        padding-right: 5px;
+        max-width: 35%;
+        max-height: 35%;
+    }
+    /*////////////////////////////////////////*/
+    .main {
+
+        padding-top: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+
+
+
+
+    .underFrame {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .underFrameImages > img {
+        padding-top: 3px;
+        padding-bottom: 27px;
+        padding-left: 26px;
+        max-width: 8%;
+        max-height: 8%;
+    }
+
+    .underFrame > div > h3 {
+
+        font-size: 8px;
+
+        padding-top: 5px;
+        padding-bottom: 2px;
+    }
+
+    .underFrame > div > h6 {
+
+        font-size: 7px;
+
+    }
+
+    .sidenav {
+        opacity: 0.9;
+        width: 0px;
+        position: absolute;
+        z-index: 1;
+        top: 20px;
+        right: 0px;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 1s;
+        box-shadow: 1px 3px #211c1c;
+    }
+
+    .sidenav > h4 {
+        font-size: 8px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        border-bottom-width: 1px;
+        border-style: solid;
+        border-color: #5a5454;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+
+    .sidenav > h5 {
+        font-size: 8px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        border-bottom-width: 1px;
+        border-style: solid;
+        border-color: #5a5454;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
+
+    .sidenav ul li:first-child {
+        background-color: black;
+        color: white;
+    }
+
+    .sidenav li {
+        font-size: 8px;
+        background-color: #423838;
+        border-bottom-width: 1px;
+        border-color: #5a5454;
+        border-style: solid;
+        color: white;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 7px;
+    }
+
+    .sidenav p {
+        font-size: 6px;
+        text-align: justify;
+        padding-top: 5px;
+        padding-right: 5px;
+        line-height: 10px;
+    }
+
+    .rectangle {
+        display: inline-flex;
+        height: 7px;
+        width: 11px;
+        background-color: black;
+        right: 10px;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .rectangle1 {
+        display: inline-flex;
+        height: 7px;
+        width: 11px;
+        background-color: #7d7d7d;
+        right: 10px;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .belowPanelB {
+        height: 28px;
+        width: 150px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!*///////////////////////////////////////////////////////////!*/*/
+/*@media screen and (max-width: 768px) {*/
+    /*.navbar > ul {*/
+        /*margin: 0;*/
+        /*padding-left: 0px;*/
+    /*}*/
+
+    /*.navbar {*/
+        /*padding-top: 30px;*/
+        /*padding-right: 33px;*/
+        /*text-transform: uppercase;*/
+    /*}*/
+
+    /*.navbar > ul > li {*/
+        /*font-size: 9px;*/
+        /*color: #7d7d7d;*/
+        /*display: inline;*/
+        /*list-style-type: none;*/
+        /*padding-right: 18.5px;*/
+    /*}*/
+
+    /*.navbar > ul > li:nth-last-child(3) {*/
+        /*padding-right: 14px;*/
+    /*}*/
+
+    /*.navbar > ul > li:last-child {*/
+        /*font-weight: bold;*/
+        /*font-size: 14px;*/
+        /*color: #fff;*/
+        /*background-color: red;*/
+        /*padding-top: 5px;*/
+        /*padding-bottom: 5px;*/
+        /*padding-left: 7px;*/
+        /*padding-right: 7px;*/
+        /*border-bottom-width: 0px;*/
+        /*box-shadow: 0px 1px #ff8888;*/
+    /*}*/
+
+    /*.navbar > ul > li:nth-last-child(2) {*/
+        /*color: #0072bc;*/
+        /*padding-right: 20px;*/
+    /*}*/
+
+    /*.navbar ul li img {*/
+        /*padding-right: 15px;*/
+    /*}*/
+
+    /*#logo {*/
+        /*padding-left: 35px;*/
+        /*padding-top: 20px;*/
+        /*padding-bottom: 19px;*/
+        /*max-width: 15%;*/
+        /*max-height: 15%;*/
+    /*}*/
+/*}*/

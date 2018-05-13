@@ -38,16 +38,25 @@
             <div id="mySidenav" class="sidenav">
                 <h4>Panel A</h4>
                 <ul>
-                    <li>1. Tytuł A <div class="rectangle1"></div>
+                    <li>1. Tytuł A
+                        <div class="rectangle1"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Integer ac gravida ligula. Sed a est
-                        et nulla tincidunt maximus. Donec interdum, nunc in
-                        scelerisque tempus</p>
+                            adipiscing elit. Integer ac gravida ligula. Sed a est
+                            et nulla tincidunt maximus. Donec interdum, nunc in
+                            scelerisque tempus</p>
                     </li>
-                    <li>2. Reklama na Facebooku<div class="rectangle"></div></li>
-                    <li>3. Te same żarty nowe wydanie<div class="rectangle"></div></li>
-                    <li>4. Warto próbować<div class="rectangle"></div></li>
-                    <li>5. Zawsze może być gorzej<div class="rectangle"></div></li>
+                    <li>2. Reklama na Facebooku
+                        <div class="rectangle"></div>
+                    </li>
+                    <li>3. Te same żarty nowe wydanie
+                        <div class="rectangle"></div>
+                    </li>
+                    <li>4. Warto próbować
+                        <div class="rectangle"></div>
+                    </li>
+                    <li>5. Zawsze może być gorzej
+                        <div class="rectangle"></div>
+                    </li>
                 </ul>
                 <h5>Panel B</h5>
                 <div class="belowPanelB"></div>
@@ -93,15 +102,22 @@
 </footer>
 <script>
   function openNav() {
-    // var element = document.getElementById("mySidenav").style.width = "503px";
     var x = document.getElementById("mySidenav");
-    if (x.style.width !== "503px") {
-      x.style.width = "503px";
+    var y = window.matchMedia("(max-width: 325px)");
+    if (y.matches) {
+      if (x.style.width !== "150px") {
+        x.style.width = "150px";
+      } else {
+        x.style.width = "0px";
+      }
     } else {
-      x.style.width = "0px";
+      if (x.style.width !== "503px") {
+        x.style.width = "503px";
+      } else {
+        x.style.width = "0px";
+      }
     }
   }
-
 </script>
 </body>
 </html>
