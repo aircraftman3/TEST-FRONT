@@ -16,8 +16,14 @@ article, footer, header, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
-    list-style: none;
+
+ol {
+    margin-left: 1em;
+}
+
+ol li {
+
+    list-style-position: outside;
 }
 
 table {

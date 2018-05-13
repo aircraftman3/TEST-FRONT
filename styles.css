@@ -122,7 +122,8 @@ main {
 }
 
 .sidenav {
-    height: 50%;
+    opacity: 0.9;
+    /*height: 50%;*/
     width: 503px;
     position: absolute;
     z-index: 1;
@@ -131,12 +132,43 @@ main {
     background-color: #111;
     overflow-x: hidden;
     transition: 1s;
-    padding-top: 60px;
+    /*padding-top: 60px;*/
 }
 
-.sidenav p {
+.sidenav > h4 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #5a5454;
+}
+
+.sidenav ol li:first-child {
+    background-color: black;
     color: white;
 }
+
+.sidenav li {
+    font-size: 18px;
+    background-color: #423838;
+    border-bottom-width: 1px;
+    border-color: #5a5454;
+    border-style: solid;
+    color: white;
+}
+
+.rectangle {
+    display: inline-flex;
+    height: 21px;
+    width: 46px;
+    background-color: red;
+    right: 10px;
+    float: right;
+}
+
+
 
 
 /*//////////////////////////////////////////*/
