@@ -143,9 +143,25 @@ main {
     border-bottom-width: 1px;
     border-style: solid;
     border-color: #5a5454;
+    padding-top: 19px;
+    padding-bottom: 18px;
+    padding-left: 19px;
 }
 
-.sidenav ol li:first-child {
+.sidenav > h5 {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: #5a5454;
+    padding-top: 19px;
+    padding-bottom: 25px;
+    padding-left: 14px;
+}
+
+.sidenav ul li:first-child {
     background-color: black;
     color: white;
 }
@@ -157,6 +173,18 @@ main {
     border-color: #5a5454;
     border-style: solid;
     color: white;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    padding-left: 17px;
+}
+
+.sidenav p {
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 17px;
+    padding-right: 34px;
+
+    line-height: 24px;
 }
 
 .rectangle {
@@ -166,6 +194,8 @@ main {
     background-color: red;
     right: 10px;
     float: right;
+    margin-right: 29px;
+
 }
 
 
