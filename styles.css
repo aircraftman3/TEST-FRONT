@@ -127,12 +127,15 @@ main {
     width: 503px;
     position: absolute;
     z-index: 1;
-    top: 336px;
-    right: 0;
+    top: 359px;
+    right: 50px;
     background-color: #111;
     overflow-x: hidden;
     transition: 1s;
     /*padding-top: 60px;*/
+    border: 1px solid;
+    /*padding: 10px;*/
+    box-shadow: 3px 8px #211c1c;
 }
 
 .sidenav > h4 {
@@ -191,14 +194,28 @@ main {
     display: inline-flex;
     height: 21px;
     width: 46px;
-    background-color: red;
+    background-color: black;
     right: 10px;
     float: right;
     margin-right: 29px;
+}
 
+.rectangle1 {
+    display: inline-flex;
+    height: 21px;
+    width: 46px;
+    background-color: #7d7d7d;
+    right: 10px;
+    float: right;
+    margin-right: 29px;
 }
 
 
+
+.belowPanelB {
+    height: 128px;
+    width: 503px;
+}
 
 
 /*//////////////////////////////////////////*/
