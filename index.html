@@ -93,7 +93,13 @@
 </footer>
 <script>
   function openNav() {
-    document.getElementById("mySidenav").style.width = "503px";
+    // var element = document.getElementById("mySidenav").style.width = "503px";
+    var x = document.getElementById("mySidenav");
+    if (x.style.width !== "503px") {
+      x.style.width = "503px";
+    } else {
+      x.style.width = "0px";
+    }
   }
 
 </script>
