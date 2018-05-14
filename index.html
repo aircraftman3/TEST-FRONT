@@ -37,19 +37,29 @@
             </div>
             <div id="mySidenav" class="sidenav">
                 <h4>Panel A</h4>
-                <ol>
-                    <li>Tytuł A <div class="rectangle"></div>
+                <ul>
+                    <li>1. Tytuł A
+                        <div class="rectangle1"></div>
                         <p>Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Integer ac gravida ligula. Sed a est
-                        et nulla tincidunt maximus. Donec interdum, nunc in
-                        scelerisque tempus</p>
+                            adipiscing elit. Integer ac gravida ligula. Sed a est
+                            et nulla tincidunt maximus. Donec interdum, nunc in
+                            scelerisque tempus</p>
                     </li>
-                    <li>Reklama na Facebooku<div class="rectangle"></div></li>
-                    <li>Te same żarty nowe wydanie<div class="rectangle"></div></li>
-                    <li>Warto próbować<div class="rectangle"></div></li>
-                    <li>Zawsze może być gorzej<div class="rectangle"></div></li>
-                </ol>
-                <h4>Panel B</h4>
+                    <li>2. Reklama na Facebooku
+                        <div class="rectangle"></div>
+                    </li>
+                    <li>3. Te same żarty nowe wydanie
+                        <div class="rectangle"></div>
+                    </li>
+                    <li>4. Warto próbować
+                        <div class="rectangle"></div>
+                    </li>
+                    <li>5. Zawsze może być gorzej
+                        <div class="rectangle"></div>
+                    </li>
+                </ul>
+                <h5>Panel B</h5>
+                <div class="belowPanelB"></div>
 
             </div>
             <div class="underFrameImages">
@@ -92,9 +102,30 @@
 </footer>
 <script>
   function openNav() {
-    document.getElementById("mySidenav").style.width = "503px";
+    var x = document.getElementById("mySidenav");
+    var y = window.matchMedia("(max-width: 691px)");
+    var z = window.matchMedia("(min-width: 692px) and (max-width: 1140px");
+    var t = window.matchMedia("(min-width: 1141px)");
+    if (y.matches) {
+      if (x.style.width !== "150px") {
+        x.style.width = "150px";
+      } else {
+        x.style.width = "0px";
+      }
+    } else if (z.matches) {
+      if (x.style.width !== "200px") {
+        x.style.width = "200px";
+      } else {
+        x.style.width = "0px";
+      }
+    } else if (t.matches) {
+      if (x.style.width !== "503px") {
+        x.style.width = "503px";
+      } else {
+        x.style.width = "0px";
+      }
+    }
   }
-
 </script>
 </body>
 </html>
