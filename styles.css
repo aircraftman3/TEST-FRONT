@@ -36,11 +36,8 @@ header {
     font-weight: bold;
     font-size: 24px;
     color: #fff;
-    background-color: red;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 14px;
-    padding-right: 14px;
+    background-color: #f00;
+    padding: 10px 14px 10px 14px;
     border-bottom-width: 0px;
     box-shadow: 0px 1px #ff8888;
 }
@@ -55,12 +52,9 @@ header {
 }
 
 #logo {
-    padding-left: 35px;
-    padding-top: 20px;
-    padding-bottom: 19px;
+    padding: 20px 0px 19px 35px;
     width: 100%;
     height: 100%;
-
     max-width: 180px;
     max-height: 61px;
 
@@ -71,9 +65,7 @@ header {
 .main {
 
     border-top: solid 2px #ebebeb;
-    padding-top: 78px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding: 78px 90px 0px 90px;
     background-color: #272121;
 }
 
@@ -97,17 +89,14 @@ header {
 }
 
 .underFrameImages > img {
-    padding-top: 23px;
-    padding-bottom: 27px;
-    padding-left: 26px;
+    padding: 23px 0px 27px 26px;
 }
 
 .underFrame > div > h3 {
     color: #fff;
     font-size: 26.1px;
     margin: 0;
-    padding-top: 25px;
-    padding-bottom: 2px;
+    padding: 25px 0px 2px 0px;
 }
 
 .underFrame > div > h6 {
@@ -132,51 +121,41 @@ header {
 .sidenav > h4 {
     font-size: 24px;
     font-weight: bold;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
     border-bottom-width: 1px;
-    border-style: solid;
-    border-color: #5a5454;
-    padding-top: 19px;
-    padding-bottom: 18px;
-    padding-left: 19px;
+    border: solid #5a5454;
+    padding: 19px 0px 18px 19px;
 }
 
 .sidenav > h5 {
     font-size: 24px;
     font-weight: bold;
     background-color: black;
-    color: white;
+    color: #fff;
     border-bottom-width: 1px;
-    border-style: solid;
-    border-color: #5a5454;
-    padding-top: 19px;
-    padding-bottom: 25px;
-    padding-left: 14px;
+    border: solid #5a5454;
+    padding: 19px 0px 25px 14px;
 }
 
 .sidenav ul li:first-child {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
 }
 
 .sidenav li {
     font-size: 18px;
     background-color: #423838;
     border-bottom-width: 1px;
-    border-color: #5a5454;
-    border-style: solid;
-    color: white;
-    padding-top: 21px;
-    padding-bottom: 20px;
-    padding-left: 17px;
+    border: solid #5a5454;
+    color: #fff;
+    padding: 21px 0px 20px 17px;
 }
 
 .sidenav p {
     font-size: 14px;
     text-align: justify;
-    padding-top: 17px;
-    padding-right: 34px;
+    padding: 17px 34px 0px 0px;
     line-height: 24px;
 }
 
@@ -184,7 +163,7 @@ header {
     display: inline-flex;
     height: 21px;
     width: 46px;
-    background-color: black;
+    background-color: #000;
     right: 10px;
     float: right;
     margin-right: 29px;
@@ -228,9 +207,7 @@ footer {
 }
 
 .footerArticle {
-    padding-top: 48px;
-    padding-left: 96px;
-    padding-right: 91px;
+    padding: 48px 91px 0px 96px;
 }
 
 .footerBottom {
@@ -239,15 +216,12 @@ footer {
 }
 
 .footerBottom > div > img {
-    padding-left: 96px;
-    padding-bottom: 55px;
+    padding: 0px 0px 55px 96px;
 }
 
 .footerBottom > div > h3 {
     margin: 0;
-    padding-top: 8px;
-    padding-left: 17px;
-    padding-bottom: 2px;
+    padding: 8px 0px 2px 17px;
     font-size: 20.13px;
 }
 
@@ -265,8 +239,7 @@ footer {
     }
 
     .navbar {
-        padding-top: 10px;
-        padding-right: 0px;
+        padding: 10px 0px 0px 0px;
     }
 
     .navbar > ul > li {
@@ -280,10 +253,8 @@ footer {
 
     .navbar > ul > li:last-child {
         font-size: 8px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
+
+        padding: 5px 10px;
     }
 
     .navbar > ul > li:nth-last-child(2) {
@@ -291,39 +262,30 @@ footer {
     }
 
     .navbar ul li img {
-        padding-top: 2px;
-        padding-right: 2px;
+        padding: 2px 2px 0px 0px;
         max-width: 10%;
         max-height: 10%;
     }
 
     #logo {
-        padding-left: 15px;
-        padding-top: 15px;
-        padding-bottom: 9px;
-        padding-right: 5px;
+        padding: 15px 5px 9px 15px;
         max-width: 35%;
         max-height: 35%;
     }
 
     .main {
-        padding-top: 14px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 14px 10px 0px;
     }
 
     .underFrameImages > img {
-        padding-top: 3px;
-        padding-bottom: 27px;
-        padding-left: 26px;
+        padding: 3px 0px 27px 26px;
         max-width: 8%;
         max-height: 8%;
     }
 
     .underFrame > div > h3 {
         font-size: 8px;
-        padding-top: 5px;
-        padding-bottom: 2px;
+        padding: 5px 0px 2px 0px;
     }
 
     .underFrame > div > h6 {
@@ -337,29 +299,22 @@ footer {
 
     .sidenav > h4 {
         font-size: 8px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 5px;
+        padding: 5px 0px 5px 5px;
     }
 
     .sidenav > h5 {
         font-size: 8px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 5px;
+        padding: 5px 0px 5px 5px;
     }
 
     .sidenav li {
         font-size: 8px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        padding-left: 7px;
+        padding: 7px 0px 7px 7px;
     }
 
     .sidenav p {
         font-size: 6px;
-        padding-top: 5px;
-        padding-right: 5px;
+        padding: 5px 5px 0px 0px;
         line-height: 10px;
     }
 
@@ -397,22 +352,17 @@ footer {
     }
 
     .footerArticle {
-        padding-top: 8px;
-        padding-left: 11px;
-        padding-right: 11px;
+        padding: 8px 11px 0px;
     }
 
     .footerBottom > div > img {
-        padding-left: 11px;
-        padding-bottom: 11px;
+        padding: 0px 0px 11px 11px;
         max-width: 50%;
         max-height: 50%;
     }
 
     .footerBottom > div > h3 {
-        padding-top: 8px;
-        padding-left: 2px;
-        padding-bottom: 2px;
+        padding: 8px 0px 2px 2px;
         font-size: 8px;
     }
 
@@ -429,8 +379,7 @@ footer {
     }
 
     .navbar {
-        padding-top: 30px;
-        padding-right: 33px;
+        padding: 30px 33px 0px 0px;
         text-transform: uppercase;
     }
 
@@ -451,10 +400,7 @@ footer {
         font-size: 14px;
         color: #fff;
         background-color: red;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 7px;
-        padding-right: 7px;
+        padding: 5px 7px;
         border-bottom-width: 0px;
         box-shadow: 0px 1px #ff8888;
     }
@@ -469,25 +415,20 @@ footer {
     }
 
     #logo {
-        padding-left: 35px;
-        padding-top: 20px;
-        padding-bottom: 19px;
+        padding: 20px 0px 19px 35px;
         max-width: 15%;
         max-height: 15%;
     }
 
     .underFrameImages > img {
-        padding-top: 3px;
-        padding-bottom: 27px;
-        padding-left: 26px;
+        padding: 3px 0px 27px 26px;
         max-width: 8%;
         max-height: 8%;
     }
 
     .underFrame > div > h3 {
         font-size: 8px;
-        padding-top: 5px;
-        padding-bottom: 2px;
+        padding: 5px 0px 2px 0px;
     }
 
     .underFrame > div > h6 {
@@ -501,29 +442,22 @@ footer {
 
     .sidenav > h4 {
         font-size: 8px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 5px;
+        padding: 5px 0px 5px 5px;
     }
 
     .sidenav > h5 {
         font-size: 8px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 5px;
+        padding: 5px 0px 5px 5px;
     }
 
     .sidenav li {
         font-size: 8px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        padding-left: 7px;
+        padding: 7px 0px 7px 7px;
     }
 
     .sidenav p {
         font-size: 6px;
-        padding-top: 5px;
-        padding-right: 5px;
+        padding: 5px 5px 0px 0px;
         line-height: 10px;
     }
 
@@ -561,22 +495,17 @@ footer {
     }
 
     .footerArticle {
-        padding-top: 8px;
-        padding-left: 11px;
-        padding-right: 11px;
+        padding: 8px 11px 0px;
     }
 
     .footerBottom > div > img {
-        padding-left: 11px;
-        padding-bottom: 11px;
+        padding: 0px 0px 11px 11px;
         max-width: 50%;
         max-height: 50%;
     }
 
     .footerBottom > div > h3 {
-        padding-top: 8px;
-        padding-left: 2px;
-        padding-bottom: 2px;
+        padding: 8px 0px 2px 2px;
         font-size: 8px;
     }
 
