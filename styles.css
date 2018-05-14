@@ -257,24 +257,20 @@ footer {
     color: #d57232;
     font-size: 15.1px;
 }
+
 /*/////////////////////////////////////////////////////////////////*/
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 691px) {
     .navbar > ul {
-        margin: 0;
         padding-left: 0px;
     }
 
     .navbar {
         padding-top: 10px;
         padding-right: 0px;
-
     }
 
     .navbar > ul > li {
-        font-size: 8px;
-
-
-
+        font-size: 7px;
         padding-right: 2px;
     }
 
@@ -283,24 +279,22 @@ footer {
     }
 
     .navbar > ul > li:last-child {
-
-        font-size: 9px;
-
-
+        font-size: 8px;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 10px;
         padding-right: 10px;
-
     }
 
     .navbar > ul > li:nth-last-child(2) {
-
         padding-right: 0px;
     }
 
     .navbar ul li img {
+        padding-top: 2px;
         padding-right: 2px;
+        max-width: 10%;
+        max-height: 10%;
     }
 
     #logo {
@@ -311,22 +305,11 @@ footer {
         max-width: 35%;
         max-height: 35%;
     }
-    /*////////////////////////////////////////*/
-    .main {
 
+    .main {
         padding-top: 14px;
         padding-left: 10px;
         padding-right: 10px;
-
-    }
-
-
-
-
-
-    .underFrame {
-        display: flex;
-        justify-content: space-between;
     }
 
     .underFrameImages > img {
@@ -338,40 +321,22 @@ footer {
     }
 
     .underFrame > div > h3 {
-
         font-size: 8px;
-
         padding-top: 5px;
         padding-bottom: 2px;
     }
 
     .underFrame > div > h6 {
-
         font-size: 7px;
-
     }
 
     .sidenav {
-        opacity: 0.9;
-        width: 0px;
-        position: absolute;
-        z-index: 1;
-        top: 20px;
+        top: 90px;
         right: 0px;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 1s;
-        box-shadow: 1px 3px #211c1c;
     }
 
     .sidenav > h4 {
         font-size: 8px;
-        font-weight: bold;
-        background-color: black;
-        color: white;
-        border-bottom-width: 1px;
-        border-style: solid;
-        border-color: #5a5454;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 5px;
@@ -379,29 +344,13 @@ footer {
 
     .sidenav > h5 {
         font-size: 8px;
-        font-weight: bold;
-        background-color: black;
-        color: white;
-        border-bottom-width: 1px;
-        border-style: solid;
-        border-color: #5a5454;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 5px;
     }
 
-    .sidenav ul li:first-child {
-        background-color: black;
-        color: white;
-    }
-
     .sidenav li {
         font-size: 8px;
-        background-color: #423838;
-        border-bottom-width: 1px;
-        border-color: #5a5454;
-        border-style: solid;
-        color: white;
         padding-top: 7px;
         padding-bottom: 7px;
         padding-left: 7px;
@@ -409,29 +358,22 @@ footer {
 
     .sidenav p {
         font-size: 6px;
-        text-align: justify;
         padding-top: 5px;
         padding-right: 5px;
         line-height: 10px;
     }
 
     .rectangle {
-        display: inline-flex;
         height: 7px;
         width: 11px;
-        background-color: black;
         right: 10px;
-        float: right;
         margin-right: 10px;
     }
 
     .rectangle1 {
-        display: inline-flex;
         height: 7px;
         width: 11px;
-        background-color: #7d7d7d;
         right: 10px;
-        float: right;
         margin-right: 10px;
     }
 
@@ -440,73 +382,206 @@ footer {
         width: 150px;
     }
 
+    .footerArticle > p {
+        font-size: 9px;
+        padding-bottom: 12px;
+        line-height: 10px;
+    }
+
+    .footerArticle > p:nth-last-child(2) {
+        padding-bottom: 12px;
+    }
+
+    .footerArticle > p:last-child {
+        padding-bottom: 15px;
+    }
+
+    .footerArticle {
+        padding-top: 8px;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .footerBottom > div > img {
+        padding-left: 11px;
+        padding-bottom: 11px;
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .footerBottom > div > h3 {
+        padding-top: 8px;
+        padding-left: 2px;
+        padding-bottom: 2px;
+        font-size: 8px;
+    }
+
+    .footerBottom > div > h6 {
+        padding-left: 2px;
+        font-size: 7px;
+    }
 }
 
+@media screen and (min-width: 692px) and (max-width: 1140px) {
+    .navbar > ul {
+        margin: 0;
+        padding-left: 0px;
+    }
 
+    .navbar {
+        padding-top: 30px;
+        padding-right: 33px;
+        text-transform: uppercase;
+    }
 
+    .navbar > ul > li {
+        font-size: 9px;
+        color: #7d7d7d;
+        display: inline;
+        list-style-type: none;
+        padding-right: 18.5px;
+    }
 
+    .navbar > ul > li:nth-last-child(3) {
+        padding-right: 14px;
+    }
 
+    .navbar > ul > li:last-child {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        background-color: red;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
+        border-bottom-width: 0px;
+        box-shadow: 0px 1px #ff8888;
+    }
 
+    .navbar > ul > li:nth-last-child(2) {
+        color: #0072bc;
+        padding-right: 20px;
+    }
 
+    .navbar ul li img {
+        padding-right: 15px;
+    }
 
+    #logo {
+        padding-left: 35px;
+        padding-top: 20px;
+        padding-bottom: 19px;
+        max-width: 15%;
+        max-height: 15%;
+    }
 
+    .underFrameImages > img {
+        padding-top: 3px;
+        padding-bottom: 27px;
+        padding-left: 26px;
+        max-width: 8%;
+        max-height: 8%;
+    }
 
+    .underFrame > div > h3 {
+        font-size: 8px;
+        padding-top: 5px;
+        padding-bottom: 2px;
+    }
 
+    .underFrame > div > h6 {
+        font-size: 7px;
+    }
 
+    .sidenav {
+        top: 150px;
+        right: 0px;
+    }
 
+    .sidenav > h4 {
+        font-size: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
 
-/*!*///////////////////////////////////////////////////////////!*/*/
-/*@media screen and (max-width: 768px) {*/
-    /*.navbar > ul {*/
-        /*margin: 0;*/
-        /*padding-left: 0px;*/
-    /*}*/
+    .sidenav > h5 {
+        font-size: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+    }
 
-    /*.navbar {*/
-        /*padding-top: 30px;*/
-        /*padding-right: 33px;*/
-        /*text-transform: uppercase;*/
-    /*}*/
+    .sidenav li {
+        font-size: 8px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 7px;
+    }
 
-    /*.navbar > ul > li {*/
-        /*font-size: 9px;*/
-        /*color: #7d7d7d;*/
-        /*display: inline;*/
-        /*list-style-type: none;*/
-        /*padding-right: 18.5px;*/
-    /*}*/
+    .sidenav p {
+        font-size: 6px;
+        padding-top: 5px;
+        padding-right: 5px;
+        line-height: 10px;
+    }
 
-    /*.navbar > ul > li:nth-last-child(3) {*/
-        /*padding-right: 14px;*/
-    /*}*/
+    .rectangle {
+        height: 7px;
+        width: 11px;
+        right: 10px;
+        margin-right: 10px;
+    }
 
-    /*.navbar > ul > li:last-child {*/
-        /*font-weight: bold;*/
-        /*font-size: 14px;*/
-        /*color: #fff;*/
-        /*background-color: red;*/
-        /*padding-top: 5px;*/
-        /*padding-bottom: 5px;*/
-        /*padding-left: 7px;*/
-        /*padding-right: 7px;*/
-        /*border-bottom-width: 0px;*/
-        /*box-shadow: 0px 1px #ff8888;*/
-    /*}*/
+    .rectangle1 {
+        height: 7px;
+        width: 11px;
+        right: 10px;
+        margin-right: 10px;
+    }
 
-    /*.navbar > ul > li:nth-last-child(2) {*/
-        /*color: #0072bc;*/
-        /*padding-right: 20px;*/
-    /*}*/
+    .belowPanelB {
+        height: 28px;
+        width: 150px;
+    }
 
-    /*.navbar ul li img {*/
-        /*padding-right: 15px;*/
-    /*}*/
+    .footerArticle > p {
+        font-size: 9px;
+        padding-bottom: 12px;
+        line-height: 10px;
+    }
 
-    /*#logo {*/
-        /*padding-left: 35px;*/
-        /*padding-top: 20px;*/
-        /*padding-bottom: 19px;*/
-        /*max-width: 15%;*/
-        /*max-height: 15%;*/
-    /*}*/
-/*}*/
+    .footerArticle > p:nth-last-child(2) {
+        padding-bottom: 12px;
+    }
+
+    .footerArticle > p:last-child {
+        padding-bottom: 15px;
+    }
+
+    .footerArticle {
+        padding-top: 8px;
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+
+    .footerBottom > div > img {
+        padding-left: 11px;
+        padding-bottom: 11px;
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .footerBottom > div > h3 {
+        padding-top: 8px;
+        padding-left: 2px;
+        padding-bottom: 2px;
+        font-size: 8px;
+    }
+
+    .footerBottom > div > h6 {
+        padding-left: 2px;
+        font-size: 7px;
+    }
+}

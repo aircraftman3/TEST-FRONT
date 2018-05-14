@@ -103,14 +103,22 @@
 <script>
   function openNav() {
     var x = document.getElementById("mySidenav");
-    var y = window.matchMedia("(max-width: 325px)");
+    var y = window.matchMedia("(max-width: 691px)");
+    var z = window.matchMedia("(min-width: 692px) and (max-width: 1140px");
+    var t = window.matchMedia("(min-width: 1141px)");
     if (y.matches) {
       if (x.style.width !== "150px") {
         x.style.width = "150px";
       } else {
         x.style.width = "0px";
       }
-    } else {
+    } else if (z.matches){
+      if (x.style.width !== "200px") {
+        x.style.width = "200px";
+      } else {
+        x.style.width = "0px";
+      }
+    } else if(t.matches){
       if (x.style.width !== "503px") {
         x.style.width = "503px";
       } else {
