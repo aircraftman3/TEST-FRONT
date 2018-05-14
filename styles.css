@@ -48,6 +48,8 @@ header {
 }
 
 .navbar ul li img {
+    max-width: 100%;
+    max-height: 100%;
     padding-right: 15px;
 }
 
@@ -65,7 +67,7 @@ header {
 .main {
 
     border-top: solid 2px #ebebeb;
-    padding: 78px 90px 0px 90px;
+    padding: 4.6% 5.4% 0 5.4%;
     background-color: #272121;
 }
 
@@ -110,7 +112,7 @@ header {
     width: 0px;
     position: absolute;
     z-index: 1;
-    top: 359px;
+    top: 45%;
     right: 50px;
     background-color: #111;
     overflow-x: hidden;
@@ -124,7 +126,8 @@ header {
     background-color: #000;
     color: #fff;
     border-bottom-width: 1px;
-    border: solid #5a5454;
+    border-style: solid;
+    border-color: #5a5454;
     padding: 19px 0px 18px 19px;
 }
 
@@ -134,7 +137,8 @@ header {
     background-color: black;
     color: #fff;
     border-bottom-width: 1px;
-    border: solid #5a5454;
+    border-style: solid;
+    border-color: #5a5454;
     padding: 19px 0px 25px 14px;
 }
 
@@ -147,7 +151,8 @@ header {
     font-size: 18px;
     background-color: #423838;
     border-bottom-width: 1px;
-    border: solid #5a5454;
+    border-style: solid;
+    border-color: #5a5454;
     color: #fff;
     padding: 21px 0px 20px 17px;
 }
@@ -263,18 +268,14 @@ footer {
 
     .navbar ul li img {
         padding: 2px 2px 0px 0px;
-        max-width: 10%;
-        max-height: 10%;
+        width: 6%;
+        height: 6%;
     }
 
     #logo {
         padding: 15px 5px 9px 15px;
-        max-width: 35%;
-        max-height: 35%;
-    }
-
-    .main {
-        padding: 14px 10px 0px;
+        width: 35%;
+        height: 35%;
     }
 
     .underFrameImages > img {
@@ -293,7 +294,7 @@ footer {
     }
 
     .sidenav {
-        top: 90px;
+        top: 5%;
         right: 0px;
     }
 
@@ -436,7 +437,7 @@ footer {
     }
 
     .sidenav {
-        top: 150px;
+        top: 45%;
         right: 0px;
     }
 
